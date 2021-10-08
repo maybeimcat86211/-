@@ -2,7 +2,7 @@
 各個網站的網路爬蟲程式碼參考_python  
 Created on Fri Jul  9 07:59:01 2021  
 last update on 2021/07/09  
-@author:  
+@author:  hank
 """  
 '''導入爬蟲所需'''  
 import cloudscraper  
