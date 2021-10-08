@@ -1,3 +1,5 @@
+#ptt初始網址,如果要換看板,可以做更動
+url = "https://www.ptt.cc/bbs/Gossiping/index.html"
 def ptt_preprocess(url):
     '''帶入所需抓取的資訊'''
     headers={
