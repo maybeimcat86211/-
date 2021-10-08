@@ -33,8 +33,8 @@ tags = []
 page_url = []
 thumbs_up = []
 comment_count = []
-#Dcard官方熱門文章介面API網址
-top_100_url = "https://www.dcard.tw/_api/posts?popular=true&limit=2"
+#Dcard官方熱門文章介面API網址 數字可以自行更改 這邊我抓50篇
+top_100_url = "https://www.dcard.tw/_api/posts?popular=true&limit=50"
 #繞過反爬蟲後轉文字
 top_100_page = scraper.get(top_100_url).text
 #分析json文字並拿取資料
